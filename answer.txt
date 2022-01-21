@@ -1,0 +1,6 @@
+1： by assign socket.socket with two variables, fisr one is AF family, and the second one is the type of socket connection.
+2: client is the one who starts connection. server requires a specific port to listen.
+3:setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+4:we will get the host and port of the incoming remote adress
+5:it recieve closr connetion with empty byte strings.
+6:
